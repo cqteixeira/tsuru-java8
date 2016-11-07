@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+APP_NAME=$1
+java -Djava.security.egd=file:/dev/./urandom -jar $APP_NAME
